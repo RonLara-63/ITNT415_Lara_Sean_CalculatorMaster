@@ -7,7 +7,7 @@ def subtract(x, y):
     return x - y
 
 def multiply(x, y):
-    pass  # implemented in multiplication branch
+    return x * y
 
 def divide(x, y):
     pass  # implemented in division branch
