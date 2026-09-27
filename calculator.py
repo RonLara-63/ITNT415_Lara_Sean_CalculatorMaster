@@ -1,8 +1,10 @@
 def add(x, y):
-    return x+y
+    """Returns the sum of x and y."""
+    return x+y 
 
 def subtract(x, y):
-    pass  # implemented in subtraction branch
+    """Returns the difference of x and y."""
+    return x - y
 
 def multiply(x, y):
     pass  # implemented in multiplication branch
