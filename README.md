@@ -4,7 +4,7 @@ Lara, Sean
 ITNT415 - BIT42
 
 ## Project Description
-Calculator Master is a menu-driven Python calculator built using Git and GitHub
+Calc Master is a menu-driven Python calculator built using Git and GitHub
 branching workflow. Each arithmetic operation (addition, subtraction,
 multiplication, division) was developed on its own feature branch and
 merged into main via Pull Requests, following individual version control
@@ -19,10 +19,11 @@ best practices.
   division-by-zero handling
 
 ## Program Features
-- Menu-driven interface using symbols (1-5)
+- Menu-driven interface using symbols (`+`, `-`, `*`, `/`, `x` to exit)
 - Input validation for non-numeric entries
 - Division-by-zero handling
 - Continuous execution until the user chooses to exit
+
 
 ## How to Run
 ```bash
