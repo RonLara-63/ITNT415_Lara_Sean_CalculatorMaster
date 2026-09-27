@@ -1,6 +1,6 @@
 def add(x, y):
     """Returns the sum of x and y."""
-    return x+y 
+    return x + y
 
 def subtract(x, y):
     """Returns the difference of x and y."""
@@ -27,31 +27,31 @@ def get_number(prompt):
 
 def main():
     while True:
-        print("\n===== Calculator Master =====")
-        print("1. Addition")
-        print("2. Subtraction")
-        print("3. Multiplication")
-        print("4. Division")
-        print("5. Exit")
-        choice = input("Select an option (1-5): ")
+        print("\n===== Calc Master (Calc is short for Calculator) =====")
+        print("+  Addition")
+        print("-  Subtraction")
+        print("*  Multiplication")
+        print("/  Division")
+        print("x  Exit")
+        choice = input("Choose an operation (+, -, *, /, x): ")
 
-        if choice == "1":
-            x, y = get_number("Enter first number: "), get_number("Enter second number: ")
+        if choice == "+":
+            x, y = get_number("1st Number to add: "), get_number("2nd Number to add: ")
             print(f"Result: {add(x, y)}")
-        elif choice == "2":
-            x, y = get_number("Enter first number: "), get_number("Enter second number: ")
+        elif choice == "-":
+            x, y = get_number("1st Number to subtract: "), get_number("2nd Number to subtract: ")
             print(f"Result: {subtract(x, y)}")
-        elif choice == "3":
-            x, y = get_number("Enter first number: "), get_number("Enter second number: ")
+        elif choice == "*":
+            x, y = get_number("1st Number to multiply: "), get_number("2nd Number to multiply: ")
             print(f"Result: {multiply(x, y)}")
-        elif choice == "4":
-            x, y = get_number("Enter first number: "), get_number("Enter second number: ")
+        elif choice == "/":
+            x, y = get_number("1st Number to divide: "), get_number("2nd Number to divide: ")
             print(f"Result: {divide(x, y)}")
-        elif choice == "5":
-            print("Goodbye!")
+        elif choice == "x":
+            print("See Ya Later!")
             break
         else:
-            print("Invalid option. Please choose 1-5.")
+            print("Inconceivable option. Please choose +, -, *, /, or x.")
 
 if __name__ == "__main__":
     main()
