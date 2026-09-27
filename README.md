@@ -1,4 +1,4 @@
-# Calcu Master (Calc is short for Calculator)
+# Calc Master (Calc is short for Calculator)
 
 Lara, Sean
 ITNT415 - BIT42
