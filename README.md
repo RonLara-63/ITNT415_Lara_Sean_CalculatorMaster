@@ -31,4 +31,6 @@ python calculator.py
 ```
 
 ## Sample Execution Screenshot
-![Calculator running](screenshot.png)
+![Calculator running](screenshot1.png)
+
+
