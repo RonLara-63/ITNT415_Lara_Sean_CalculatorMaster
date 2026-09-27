@@ -11,7 +11,9 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    pass  # implemented in division branch
+    if y == 0:
+        return "Error: Cannot divide by zero."
+    return x / y
 
 def get_number(prompt):
     """Validates numeric input."""
