@@ -3,6 +3,7 @@ def add(x, y):
     return x+y 
 
 def subtract(x, y):
+    """Returns the difference of x and y."""
     return x - y
 
 def multiply(x, y):
