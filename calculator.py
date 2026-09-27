@@ -11,6 +11,7 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
+    """Returns the quotient of x and y."""
     if y == 0:
         return "Error: Cannot divide by zero."
     return x / y
